@@ -1,0 +1,123 @@
+/* CoinRequestDetails.css */
+
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .header .title {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .header .back-button svg {
+    cursor: pointer;
+  }
+  
+  .coin-requests {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coin-requests .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .transfer-coin-within {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .time {
+    color: #2ecc71;
+  }
+  
+  .requested-coin {
+    margin-bottom: 20px;
+  }
+  
+  .coin-stack {
+    display: flex;
+    align-items: center;
+  }
+  
+  .coin-stack img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .coin-stack span {
+    font-size: 20px;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .user-info .user-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-info .user-id {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .coin-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .coin-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #e74c3c;
+  }
+  
+  .deposit-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deposit-btn:hover {
+    background-color: #2980b9;
+  }
+  
